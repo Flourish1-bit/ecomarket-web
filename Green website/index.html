@@ -87,55 +87,8 @@
     <p id="contactMsg"></p>
   </section>  <footer>
     <p>© 2025 EcoSmart Waste Management | All Rights Reserved</p>
-  </footer>  <script>
-    // // Waste categorizer
-    // function categorizeWaste(){
-    //   const waste = document.getElementById('wasteInput').value.toLowerCase();
-    //   let suggestion = '';
-    //   if(!waste.trim()) suggestion = '⚠️ Please enter a type of waste.';
-    //   else if(waste.includes('plastic') || waste.includes('glass') || waste.includes('metal') || waste.includes('paper')) suggestion = '♻️ Recycle this item at your nearest recycling bin.';
-    //   else if(waste.includes('food') || waste.includes('fruit') || waste.includes('vegetable') || waste.includes('organic')) suggestion = '🌱 This can be composted to reduce organic waste.';
-    //   else suggestion = '🗑️ Dispose in landfill waste bin.';
-    //   document.getElementById('result').innerText = suggestion;
-    // }
-
-    // // Report form
-    // function submitReport(event){
-    //   event.preventDefault();
-    //   const location = document.getElementById('location').value;
-    //   const description = document.getElementById('description').value;
-    //   const photo = document.getElementById('photo').files[0];
-    //   let msg = `✅ Report submitted for ${location}: ${description}`;
-    //   if(photo) msg += ' (Photo attached)';
-    //   document.getElementById('reportMsg').innerText = msg;
-    //   event.target.reset();
-    // }
-
-    // // Contact form
-    // function contactSubmit(event){
-    //   event.preventDefault();
-    //   const name = document.getElementById('name').value;
-    //   const email = document.getElementById('email').value;
-    //   document.getElementById('contactMsg').innerText = `📩 Thank you ${name}! We will reply to ${email} soon.`;
-    //   event.target.reset();
-    // }
-
-    // // Chart.js statistics
-    // if(document.getElementById('wasteChart')){
-    //   const ctx = document.getElementById('wasteChart').getContext('2d');
-    //   new Chart(ctx, {
-    //     type: 'bar',
-    //     data: {
-    //       labels: ['Recycle', 'Compost', 'Landfill'],
-    //       datasets: [{
-    //         label: 'Waste Processed (kg)',
-    //         data: [120, 90, 150],
-    //         backgroundColor: ['#4caf50','#ffc107','#f44336']
-    //       }]
-    //     },
-    //     options: { responsive: true, plugins: { legend: { display: false } } }
-    //   });
-    // }
+  </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="icon" href="Green Website Icon on Gradient Square (1).png">
     <style>
